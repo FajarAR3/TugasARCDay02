@@ -8,6 +8,33 @@ body {
      
 }
 
+div.channel_container {
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    width:80px; 
+    height: 10px;
+    border-radius: 40px; 
+    margin-top: 20px;
+}
+
+div.channel_container:hover {
+    background-color: rgb(245, 175, 43);
+}
+
+div.channel_container input {
+    position: absolute;
+    opacity:0;
+    width:120px; 
+    height:40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+}
 a {
     text-decoration: none;
 }
@@ -17,7 +44,6 @@ span {
 }
 
 .menu-toggle {
-    float:right;
     display:flex;
     justify-content: space-evenly;
     position: relative;
